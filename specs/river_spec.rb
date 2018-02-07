@@ -30,3 +30,7 @@ class RiverTest < MiniTest::Test
  end
 
 end
+
+def method_name
+
+end

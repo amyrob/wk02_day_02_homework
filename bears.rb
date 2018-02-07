@@ -8,7 +8,7 @@ class Bears
   end
 
   def eats_fish(fish)
-    @stomach.push(fish)
+    @stomach.push(fish) if !fish.nil?
   end
 
 
